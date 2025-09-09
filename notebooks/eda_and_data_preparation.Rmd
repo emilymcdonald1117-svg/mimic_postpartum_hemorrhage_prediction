@@ -1,0 +1,14 @@
+---
+title: "MIMIC-IV Data Exploration and Preparation"
+author: "Emily McDonald"
+date: "September 9, 2025"
+output: html_document
+---
+
+# 1. Project Setup and Library Loading
+
+```{r setup, include=FALSE}
+# Load necessary libraries
+library(tidyverse)
+# Add other libraries here as needed
+```
