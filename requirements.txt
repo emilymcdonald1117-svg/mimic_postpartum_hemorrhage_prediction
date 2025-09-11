@@ -1,0 +1,7 @@
+# Python dependencies: 
+jupyter
+matplotlib
+pandas
+seaborn
+scikit-learn
+feather-format
