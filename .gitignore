@@ -1,0 +1,32 @@
+# Data files
+data/
+# Compiled Python files
+__pycache__/
+# Credential files
+credentials.txt
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+# Temporary files
+*.tmp
+# macOS system files
+.DS_Store
+# Log files
+*.log
+# Environment variables file
+.env
+# Virtual environment directory
+venv/
+# Backup files
+*.bak
+# Editor configuration files
+.vscode/
+# Temporary files from code editors
+*~
+*.swp
+# Result files
+results.csv
+results.json
+# Models
+models/
+# Ignore any other files or directories you want to exclude
+
