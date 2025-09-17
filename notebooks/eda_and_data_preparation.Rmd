@@ -30,9 +30,9 @@ data_path <- "path/to/mimic_iv/data/"
 ```
 # 3. Data Cleaning and Preprocessing
 ```{r data-cleaning}
-# Outline the data cleaning steps here:
+# Outline the data cleaning steps:
 # 1. Handle missing values
-# 2. Filter for your target population
+# 2. Filter for target population
 # 3. Remove unnecessary columns
 # 4. Correct data types (e.g., convert dates)
 
