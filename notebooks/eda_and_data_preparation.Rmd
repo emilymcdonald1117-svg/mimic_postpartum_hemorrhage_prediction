@@ -14,6 +14,7 @@ library(tidyverse)
 ```
 
 # 2. Data Aquisition
+Data from MIMIC-IV can be accessed after completing the required training and signing the data use agreement. Below is a placeholder for loading the data once you have access.
 ```{r data-acquisition}
 # Code to load MIMIC-IV data
 # Example: mimic_data <- read_csv("path_to_mimic_data.csv")

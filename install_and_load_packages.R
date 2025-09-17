@@ -11,7 +11,10 @@ packages_to_use <- c(
   "ricu",
   "stringr",
   "survival",
-  "tidyverse"
+  "tidyverse",
+  "bigrquery",
+  "DBI",
+  "dbplyr"
 )
 
 # Install packages not yet installed
@@ -30,3 +33,7 @@ invisible(sapply(packages_to_use, library, character.only = TRUE))
 # You are now ready to start your analysis with MIMIC-IV data.
 # The `ricu` package will be particularly helpful here.
 # For more information on using the `ricu` package, see its documentation.
+
+
+
+# End of script
