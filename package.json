@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "@google-cloud/bigquery": "^7.9.0",
+    "@google-cloud/billing": "^5.1.0",
+    "google-auth-library": "^9.14.1"
+  },
+  "name": "mimic_postpartum_hemorrhage_prediction",
+  "version": "1.0.0",
+  "description": "***Predicting Postpartum Hemorrhage Risk in the ICU***",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://emilymcdonald1117-svg@github.com/emilymcdonald1117-svg/mimic_postpartum_hemorrhage_prediction.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/emilymcdonald1117-svg/mimic_postpartum_hemorrhage_prediction/issues"
+  },
+  "homepage": "https://github.com/emilymcdonald1117-svg/mimic_postpartum_hemorrhage_prediction#readme"
+}
