@@ -28,6 +28,8 @@ results.csv
 results.json
 # Models
 models/
-# Ignore any other files or directories you want to exclude
+# Ignore any local sdk installs and installer dirs
+install/**/google-cloud-sdk/
+install/
 
 node_modules
