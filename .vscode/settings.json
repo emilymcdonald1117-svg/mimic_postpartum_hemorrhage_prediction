@@ -1,0 +1,28 @@
+{
+    "sqltools.connections": [
+        {
+            "name": "MIMIC-IV BigQuery",
+            "authenticator": "CLI",
+            "location": "us",
+            "previewLimit": 50,
+            "driver": "BigQuery",
+            "projectId": "engaged-cargo-472320-b0"
+        },
+        {
+            "name": "BigQuery",
+            "authenticator": "CLI",
+            "location": "us",
+            "previewLimit": 50,
+            "driver": "BigQuery",
+            "projectId": "physionet-data"
+        },
+        {
+            "name": "mimiciv",
+            "authenticator": "CLI",
+            "location": "us",
+            "previewLimit": 50,
+            "driver": "BigQuery",
+            "projectId": "engaged-cargo-472320-b0"
+        }
+    ]
+}

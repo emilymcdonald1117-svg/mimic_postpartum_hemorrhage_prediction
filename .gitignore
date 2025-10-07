@@ -12,14 +12,20 @@ credentials.txt
 .DS_Store
 # Log files
 *.log
+yarn-error.log
+npm-debug.log*
+yarn-error.log.txt
 # Environment variables file
 .env
 # Virtual environment directory
 venv/
 # Backup files
 *.bak
-# Editor configuration files
-.vscode/
+# User-specific editor configuration
+.vscode/*
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/extensions.json
 # Temporary files from code editors
 *~
 *.swp
