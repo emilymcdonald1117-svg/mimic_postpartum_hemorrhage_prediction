@@ -36,6 +36,20 @@ results.json
 models/
 # Ignore any local sdk installs and installer dirs
 install/**/google-cloud-sdk/
+# Ignore Google Cloud SDK installs and local gcloud config
+# (ignore common install locations and any repo-relative google-cloud-sdk directories)
+google-cloud-sdk/
+**/google-cloud-sdk/
+install/**/google-cloud-sdk/
 install/
 
+# gcloud local config and credential caches
+.config/gcloud/
+.gcloud/
+.boto
+
+# Common service-account / credential file patterns (revise if you use other names)
+service-account-*.json
+*-credentials.json
+*-key.json
 node_modules
